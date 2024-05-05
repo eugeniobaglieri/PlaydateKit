@@ -260,12 +260,12 @@ public enum Sprite {
         }
 
         /// Adds the sprite to the display list, so that it is drawn in the current scene.
-        public func addToDisplayList() {
+        open func addToDisplayList() {
             sprite.addSprite.unsafelyUnwrapped(pointer)
         }
 
         /// Removes the given sprite from the display list.
-        public func removeFromDisplayList() {
+        open func removeFromDisplayList() {
             sprite.removeSprite.unsafelyUnwrapped(pointer)
         }
 
