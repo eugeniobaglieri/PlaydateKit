@@ -1,4 +1,4 @@
-import CPlaydate
+public import CPlaydate
 
 public typealias Vector2 = SIMD2<Float>
 

@@ -1,4 +1,4 @@
-import CPlaydate
+public import CPlaydate
 
 // MARK: - Graphics
 

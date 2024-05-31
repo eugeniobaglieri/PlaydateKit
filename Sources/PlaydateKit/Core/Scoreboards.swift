@@ -1,4 +1,4 @@
-import CPlaydate
+public import CPlaydate
 
 /// Functions related to fetching and updating scoreboards.
 ///

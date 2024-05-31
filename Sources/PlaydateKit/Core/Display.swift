@@ -1,4 +1,4 @@
-import CPlaydate
+public import CPlaydate
 
 /// Functions pertaining to Playdate’s screen.
 public enum Display {

@@ -1,4 +1,4 @@
-import CPlaydate
+public import CPlaydate
 
 /// Functions which allow you to interact with files on Playdate’s filesystem.
 public enum File {
