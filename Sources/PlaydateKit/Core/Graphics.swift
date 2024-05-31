@@ -443,7 +443,7 @@ public enum Graphics {
     /// The mode used for drawing bitmaps. Note that text drawing uses bitmaps, so this affects how fonts are displayed as well.
     public nonisolated(unsafe) static var drawMode: Bitmap.DrawMode = .copy {
         didSet {
-            graphics.setDrawMode.unsafelyUnwrapped(drawMode)
+            _ = graphics.setDrawMode.unsafelyUnwrapped(drawMode)
         }
     }
 
